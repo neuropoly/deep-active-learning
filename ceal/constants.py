@@ -2,9 +2,9 @@
 
 
 # PATH definition
-global_path = "src/10_08_myelin"
-initial_weights_path = "src/models/initial_weights.hdf5"
-final_weights_path = "src/models/output_weights_batch_norm.hdf5"
+global_path = "/home/malub_local/rosenberg/src/10_08_myelin"
+initial_weights_path = "/home/malub_local/rosenberg/src/models/initial_weights.hdf5"
+final_weights_path = "/home/malub_local/rosenberg/src/models/output_weights_batch_norm.hdf5"
 
 param_path = "./"
 
@@ -38,7 +38,7 @@ nb_pseudo_initial = 1
 pseudo_rate = 2
 
 initial_train = True
-nb_initial_epochs = 10
+nb_initial_epochs = 150
 nb_active_epochs = 2
 batch_size = 10
 steps_per_epoch = nb_labeled / batch_size
