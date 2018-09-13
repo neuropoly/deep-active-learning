@@ -2,9 +2,8 @@
 
 
 # PATH definition
-global_path = "/home/malub_local/rosenberg/src/10_08_myelin"
-initial_weights_path = "/home/malub_local/rosenberg/src/models/initial_weights.hdf5"
-final_weights_path = "/home/malub_local/rosenberg/src/models/output_weights_batch_norm.hdf5"
+initial_weights_path = "./models/initial_weights.hdf5"
+final_weights_path = "./models/output_weights_batch_norm.hdf5"
 
 param_path = "./"
 
