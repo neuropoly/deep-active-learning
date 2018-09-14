@@ -25,7 +25,7 @@ from functools import partial
 
 
 
-#from constants import *
+from config import *
 from networks import *
 
 ######## save parameters ###########
@@ -84,7 +84,7 @@ def get_params(img_rows, img_cols, nb_total, nb_train, nb_labeled, nb_unlabeled,
 
 #### data loading #######
             
-def preprocessor(input_img):
+def preprocessor(input_img, img_rows, img_cols):
     """
     Resize input images to constants sizes
     :param input_img: numpy array of images
@@ -95,7 +95,7 @@ def preprocessor(input_img):
         output_img[i, 0] = cv2.resize(input_img[i, 0], (img_cols, img_rows), interpolation=cv2.INTER_CUBIC)
     return output_img
 
-def load_data(path_img, path_mask):
+def load_data(path_img, path_mask, img_rows, img_cols):
     """
     Load data from project path
     :return: [X, y] numpy arrays containing the [training, validation, test] data and their respective masks.
@@ -104,8 +104,8 @@ def load_data(path_img, path_mask):
     X = np.load(path_img)
     y = np.load(path_mask)
 
-    X = preprocessor(X)
-    y = preprocessor(y)
+    X = preprocessor(X, img_rows, img_cols)
+    y = preprocessor(y, img_rows, img_cols)
 
     X = X.astype('float32')
 
@@ -178,16 +178,16 @@ def data_generator():
     :return: Keras data generator. Data augmentation parameters.
     """
     return ImageDataGenerator(
-        featurewise_center = featurewise_center,
-        featurewise_std_normalization = featurewise_std_normalization,
-        rotation_range = rotation_range,
-        horizontal_flip = horizontal_flip,
-        vertical_flip = vertical_flip,
-        zca_whitening = zca_whitening, 
-        rescale = rescale,
-        zoom_range = zoom_range,
-        channel_shift_range = channel_shift_range,
-	width_shift_range = width_shift_range,
+#        featurewise_center = featurewise_center,
+#        featurewise_std_normalization = featurewise_std_normalization,
+#        rotation_range = rotation_range,
+#        horizontal_flip = horizontal_flip,
+#        vertical_flip = vertical_flip,
+#        zca_whitening = zca_whitening, 
+#        rescale = rescale,
+#        zoom_range = zoom_range,
+#        channel_shift_range = channel_shift_range,
+#	width_shift_range = width_shift_range,
         height_shift_range = height_shift_range)
 
 

@@ -12,7 +12,7 @@ from keras.callbacks import TensorBoard
 from keras.layers import Input
 
 
-from constants import *
+from config import *
 import utils as utils
 
 
