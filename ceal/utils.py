@@ -25,7 +25,7 @@ from functools import partial
 
 
 
-from constants import *
+#from constants import *
 from networks import *
 
 ######## save parameters ###########
@@ -186,7 +186,9 @@ def data_generator():
         zca_whitening = zca_whitening, 
         rescale = rescale,
         zoom_range = zoom_range,
-        channel_shift_range = channel_shift_range)
+        channel_shift_range = channel_shift_range,
+	width_shift_range = width_shift_range,
+        height_shift_range = height_shift_range)
 
 
 
