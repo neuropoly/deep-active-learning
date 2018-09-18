@@ -178,16 +178,17 @@ def data_generator():
     :return: Keras data generator. Data augmentation parameters.
     """
     return ImageDataGenerator(
-#        featurewise_center = featurewise_center,
-#        featurewise_std_normalization = featurewise_std_normalization,
-#        rotation_range = rotation_range,
-#        horizontal_flip = horizontal_flip,
-#        vertical_flip = vertical_flip,
-#        zca_whitening = zca_whitening, 
-#        rescale = rescale,
-#        zoom_range = zoom_range,
-#        channel_shift_range = channel_shift_range,
-#	width_shift_range = width_shift_range,
+	fill_mode = fill_mode,
+        featurewise_center = featurewise_center,
+        featurewise_std_normalization = featurewise_std_normalization,
+        rotation_range = rotation_range,
+        horizontal_flip = horizontal_flip,
+        vertical_flip = vertical_flip,
+        zca_whitening = zca_whitening, 
+        rescale = rescale,
+        zoom_range = zoom_range,
+        channel_shift_range = channel_shift_range,
+	width_shift_range = width_shift_range,
         height_shift_range = height_shift_range)
 
 

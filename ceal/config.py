@@ -43,6 +43,7 @@ batch_size = 10
 steps_per_epoch = nb_labeled / batch_size
 
 apply_augmentation = True
+fill_mode = "reflect"
 featurewise_center = False
 featurewise_std_normalization= False
 rotation_range= 0
