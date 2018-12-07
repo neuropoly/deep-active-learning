@@ -16,7 +16,7 @@ If you experience issues during installation and/or use of this code, you can po
 * **Mathieu Boudreau** - [mathieuboudreau](https://github.com/mathieuboudreau)
 * **Julien Cohen-Adad** - [jcohenadad](https://github.com/jcohenadad)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/neuropoly/deep_active_learning/graphs/contributors) who participated in this project.
 
 ## License
 
