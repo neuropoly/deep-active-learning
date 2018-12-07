@@ -10,9 +10,9 @@ Open-source Active Learning simulation framework for segmenting myelin from hist
 ## Authors
 
 * **Mélanie Lubrano** - [MelanieLu](https://github.com/MelanieLu)
-* **Christian S. Perone**
-* **Mathieu Boudreau**
-* **Julien Cohen-Adad**
+* **Christian S. Perone** - [perone](https://github.com/perone)
+* **Mathieu Boudreau** - [mathieuboudreau](https://github.com/mathieuboudreau)
+* **Julien Cohen-Adad** - [jcohenadad](https://github.com/jcohenadad)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
