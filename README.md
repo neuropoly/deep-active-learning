@@ -2,11 +2,6 @@
 
 Open-source Active Learning simulation framework for segmenting myelin from histology data based on uncertainty sampling. Written in Python. Using the Keras framework. Based on a convolutional neural network architecture. Pixels are classified as either myelin or background.
 
-
-
-## Getting Started
-
--
 ## Help
 
 If you experience issues during installation and/or use of this code, you can post a new issue on the deep_active_learning GitHub issues webpage. We will reply to you as soon as possible.
