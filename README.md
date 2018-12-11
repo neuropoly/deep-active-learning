@@ -5,6 +5,7 @@ Open-source Active Learning simulation framework for segmenting myelin from hist
 ![alt tag](https://github.com/neuropoly/deep_active_learning/blob/master/docs/activelearning_fig0.png)
 
 
+
 ## Help
 
 If you experience issues during installation and/or use of this code, you can post a new issue on the deep_active_learning GitHub issues webpage. We will reply to you as soon as possible.
