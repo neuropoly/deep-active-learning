@@ -2,6 +2,10 @@
 
 Open-source Active Learning simulation framework for segmenting myelin from histology data based on uncertainty sampling. Written in Python. Using the Keras framework. Based on a convolutional neural network architecture. Pixels are classified as either myelin or background.
 
+![alt tag](https://github.com/neuropoly/deep_active_learning/blob/master/docs/activelearning_fig0.png)
+
+
+
 ## Help
 
 If you experience issues during installation and/or use of this code, you can post a new issue on the deep_active_learning GitHub issues webpage. We will reply to you as soon as possible.
@@ -13,11 +17,31 @@ If you experience issues during installation and/or use of this code, you can po
 * **Mathieu Boudreau** - [mathieuboudreau](https://github.com/mathieuboudreau)
 * **Julien Cohen-Adad** - [jcohenadad](https://github.com/jcohenadad)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/neuropoly/deep_active_learning/graphs/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the MIT License
+
+Copyright (c) 2018 NeuroPoly, École Polytechnique, Université de Montréal
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ## Acknowledgments
 
