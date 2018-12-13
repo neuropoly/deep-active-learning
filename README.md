@@ -48,7 +48,12 @@ pip install -r /path/to/requirements.txt
 
 #### Toy Datasets
 
+A toy dataset is made available to run the notebooks. It is composed of 2 SEM-acquired images of spinal-cord histology and their corresponding ground-truths (masks). The 2 images are already pre-processed and stored as .npy files under the *./dataset* folder. However, if you want to test this code on your own images, an example of raw images pre-processing is given in the **Dataset_preparation_v2.0.ipynb** notebook. 
+
 #### Notebooks
+
+* **Dataset_preparation_v2.0.ipynb**: Example of raw images pre-processing to obtain normalized patches store in numpy-arrays.
+* **deep_active_learning_simulation_framework.ipynb**: Deep Active Learning simulation framework to simulate active learning procedure for image segmentation. 
 
 
 ## Help
