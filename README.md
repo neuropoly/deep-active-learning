@@ -1,9 +1,59 @@
 # Deep Active Learning for Myelin Segmentation on Histology Data
 
-Open-source Active Learning simulation framework for segmenting myelin from histology data based on uncertainty sampling. Written in Python. Using the Keras framework. Based on a convolutional neural network architecture. Pixels are classified as either myelin or background.
+Open-source Active Learning simulation framework for segmenting myelin from histology data based on uncertainty sampling. Written in Python. Using the Keras framework. Based on a convolutional neural network architecture. Pixels are classified either as myelin or background.
 
 ![alt tag](https://github.com/neuropoly/deep_active_learning/blob/master/docs/activelearning_fig0.png)
 
+## Installation
+
+The following lines will help you install all you need to ensure that the Notebooks are working. Test data, instructions and results examples are provided to help you use this framework.
+
+#### Python
+First, you should make sure that Python 2.7 is installed on your computer. 
+Run the following command in the terminal:
+```
+python -V
+```
+If you have the Anaconda distribution installed on your system, you can specify the version of Python that you want installed in your virtual environment set up below, even if it differs from the version displayed by the “python -V” command. To see the list of Python versions available to be installed in your conda virtual environment, run:
+```
+conda search python
+```
+#### Virtual Environment
+
+We recommand you to set up a virtual environment. A virtual environment is a tool that lets you install specific versions of the python modules you want. It will allow to run this code with respect to its module requirements, without affecting the rest of your python installation.
+
+If you have the Anaconda Distribution installed on your system, you can  use the conda virtual environment manager, which allows you to specify a different Python version to be installed in your virtual environment than what’s available by default on your system.
+
+To create a virtual environment called “dal_venv” with the Anaconda Distribution, run:
+```
+conda create -n dal_venv python=2.7
+```
+To activate it, run the following command:
+
+```
+source activate dal_venv
+```
+#### Git Clone
+
+To use this framework, you first need to clone the deep_active_learning repository using the following command:
+```
+git clone https://github.com/neuropoly/deep_active_learning.git
+```
+Then, go to the newly created git repository and install the requirements using the following commands:
+
+```
+pip install -r /path/to/requirements.txt
+```
+## Getting Started
+
+#### Toy Datasets
+
+A toy dataset is made available to run the notebooks. It is composed of 2 SEM-acquired images of spinal-cord histology and their corresponding ground-truths (masks). The 2 images are already pre-processed and stored as .npy files under the *./dataset* folder. However, if you want to test this code on your own images, an example of raw images pre-processing is given in the **Dataset_preparation_v2.0.ipynb** notebook. 
+
+#### Notebooks
+
+* **Dataset_preparation_v2.0.ipynb**: Example of raw images pre-processing to obtain normalized patches store in numpy-arrays.
+* **deep_active_learning_simulation_framework.ipynb**: Deep Active Learning simulation framework to simulate active learning procedure for image segmentation. 
 
 
 ## Help
