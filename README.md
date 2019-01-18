@@ -55,6 +55,8 @@ A toy dataset is made available to run the notebooks. It is composed of 2 SEM-ac
 * **Dataset_preparation_v2.0.ipynb**: Example of raw images pre-processing to obtain normalized patches store in numpy-arrays.
 * **deep_active_learning_simulation_framework.ipynb**: Deep Active Learning simulation framework to simulate active learning procedure for image segmentation. 
 
+#### GPUs
+It is advised to run this code on GPUs since the models are heavy and trained multiple times (active learning iteration). Therefore, tensorflow-gpu must be used instead of tensorflow. If you are having issues installing tensorflow-gpu, you can refer to this page: https://www.tensorflow.org/install/pip 
 
 ## Help
 
